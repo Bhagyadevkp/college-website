@@ -55,7 +55,7 @@
     }
     .bottom-left {
         position: absolute;
-        bottom: 200px;
+        bottom: 0px;
         left: 1px;
     }
 }
@@ -75,7 +75,23 @@
     }
     .bottom-left {
         position: absolute;
-        bottom: 8px;
+        bottom: -10px;
         left: 16px;
     }
+}
+button, .college-text{
+    animation-duration: 2s;
+    animation-name: s;
+}
+@keyframes s {
+    from{
+        margin-left: -20%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+.welcome-text{
+    animation-duration: 10s;
+    animation: ease-out;
 }
