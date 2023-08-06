@@ -55,7 +55,7 @@
     }
     .bottom-left {
         position: absolute;
-        bottom: 0px;
+        bottom: 130px;
         left: 1px;
     }
 }
@@ -75,7 +75,7 @@
     }
     .bottom-left {
         position: absolute;
-        bottom: -10px;
+        bottom: -130px;
         left: 16px;
     }
 }
